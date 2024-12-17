@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DoestaWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c678ed706c2997f13bbb3865a0e138c70522c92")]
 [assembly: System.Reflection.AssemblyProductAttribute("DoestaWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DoestaWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
