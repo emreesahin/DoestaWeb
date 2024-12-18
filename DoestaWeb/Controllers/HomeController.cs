@@ -7,8 +7,26 @@ namespace DoestaWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+    //    private readonly IHttpClientFactory _httpClientFactory;
 
-        public HomeController(ILogger<HomeController> logger)
+    //    public HomeController(IHttpClientFactory httpClientFactory)
+    //    {
+    //        _httpClientFactory = httpClientFactory;
+    //    }
+
+
+    //    [HttpPost]
+    //    public async Task<IActionResult> Index()
+    //    {
+    //        var client = _httpClientFactory.CreateClient();
+    //        var responseMessage = await client.GetAsync("https://localhost:7010/api/Auth/register");
+    //        if (responseMessage.IsSuccessStatusCode)
+    //        {
+    //            return RedirectToAction("Index", "Login");
+    //        }
+    //    }
+
+    public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }

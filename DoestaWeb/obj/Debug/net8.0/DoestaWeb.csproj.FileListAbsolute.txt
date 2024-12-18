@@ -172,3 +172,4 @@ C:\Users\emre1\OneDrive\Masaüstü\DoestaWeb\DoestaWeb\obj\Debug\net8.0\refint\D
 C:\Users\emre1\OneDrive\Masaüstü\DoestaWeb\DoestaWeb\obj\Debug\net8.0\DoestaWeb.pdb
 C:\Users\emre1\OneDrive\Masaüstü\DoestaWeb\DoestaWeb\obj\Debug\net8.0\DoestaWeb.genruntimeconfig.cache
 C:\Users\emre1\OneDrive\Masaüstü\DoestaWeb\DoestaWeb\obj\Debug\net8.0\ref\DoestaWeb.dll
+C:\Users\emre1\OneDrive\Masaüstü\DoestaWeb\DoestaWeb\bin\Debug\net8.0\BCrypt.Net-Next.dll
