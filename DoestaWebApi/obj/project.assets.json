@@ -1158,7 +1158,8 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.IdentityModel.Tokens": "8.3.0"
+          "Microsoft.IdentityModel.Tokens": "8.3.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/DoestaWeb.dll": {}
