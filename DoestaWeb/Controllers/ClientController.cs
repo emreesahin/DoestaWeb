@@ -33,6 +33,9 @@ namespace DoestaWeb.Controllers
 
             try
             {
+               
+               
+
                 var client = _httpClientFactory.CreateClient();
 
                 // API'ye gönderilecek JSON içeriği
@@ -40,18 +43,18 @@ namespace DoestaWeb.Controllers
 
                 // API'ye POST isteği gönderme
                 var response = await client.PostAsync("https://localhost:7010/api/ClientsApi/Register", jsonContent);
-
+               
                 if (response.IsSuccessStatusCode)
                 {
                     // Başarılı işlem sonrası başka bir sayfaya yönlendir
                     return RedirectToAction("Index", "Home");
                 }
                 else
-                {
-                    // Daha ayrıntılı hata mesajı ekleyin
-                    var errorMessage = await response.Content.ReadAsStringAsync();
-                    ModelState.AddModelError("", $"API hatası: {errorMessage}");
-                }
+                    {
+                        // Daha ayrıntılı hata mesajı ekleyin
+                        var errorMessage = await response.Content.ReadAsStringAsync();
+                        ModelState.AddModelError("", $"API hatası: {errorMessage}");
+                    }
             }
             catch (Exception ex)
             {

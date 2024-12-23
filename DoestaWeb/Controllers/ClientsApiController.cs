@@ -23,6 +23,7 @@ namespace DoestaWeb.Controllers
 
             try
             {
+               
                 _context.Clients.Add(model);
                 _context.SaveChanges();
                 return Ok("Client registered successfully.");
